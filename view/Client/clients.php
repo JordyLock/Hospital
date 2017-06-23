@@ -36,8 +36,8 @@
 					<tr>
 						<td><?= $client["client_firstname"]; ?></td>
 						<td><?= $client["client_lastname"]; ?></td>
-						<td></td> 
-						<td></td>
+						<td><?= $client["client_phone"]; ?></td> 
+						<td><?= $client["client_email"]; ?></td>
 						<td></td> 
  
 					</tr>

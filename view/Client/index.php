@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="public/css/style.css" type="text/css">
 	
 </head>
+<?php echo '<form action="' . URL . 'games/editSave' . '" method="post">'; ?>
 <body>
 <table>
 	<h1>Hospital</h1>
@@ -36,6 +37,7 @@
 						<td><?= $getone["patient_status"]; ?></td>
 						<td><?= $getone["species_description"]; ?></td> 
 						<td><?= $getone["client_firstname"]; ?></td> 
+						<td><a href="edit">Edit</td>
 					</tr>
 				<?php } ?>
 		</thead>		
